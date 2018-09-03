@@ -16,6 +16,11 @@
 		DF47719A21368F1B0018B4A1 /* TableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF47719921368F1B0018B4A1 /* TableObject.swift */; };
 		DF4771A02136AB720018B4A1 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF47719F2136AB720018B4A1 /* SecondVC.swift */; };
 		DF4771A22136BDC70018B4A1 /* got.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DF4771A12136BDC70018B4A1 /* got.jpeg */; };
+		DF4C8BA12138F71800E0CFE9 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C8BA02138F71800E0CFE9 /* CustomCell.swift */; };
+		DF4C8BA32138FA2200E0CFE9 /* OneCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C8BA22138FA2200E0CFE9 /* OneCellCollectionViewCell.swift */; };
+		DF4C8BA52139367E00E0CFE9 /* scroll.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF4C8BA42139367E00E0CFE9 /* scroll.jpg */; };
+		DF4C8BA721393D1400E0CFE9 /* ScrollImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C8BA621393D1400E0CFE9 /* ScrollImageVC.swift */; };
+		DFA0795D21383AF2004501A0 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA0795C21383AF2004501A0 /* CollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		DF47719921368F1B0018B4A1 /* TableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableObject.swift; sourceTree = "<group>"; };
 		DF47719F2136AB720018B4A1 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		DF4771A12136BDC70018B4A1 /* got.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = got.jpeg; path = ../../../../Downloads/got.jpeg; sourceTree = "<group>"; };
+		DF4C8BA02138F71800E0CFE9 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		DF4C8BA22138FA2200E0CFE9 /* OneCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		DF4C8BA42139367E00E0CFE9 /* scroll.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = scroll.jpg; path = ../../../../Downloads/scroll.jpg; sourceTree = "<group>"; };
+		DF4C8BA621393D1400E0CFE9 /* ScrollImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollImageVC.swift; sourceTree = "<group>"; };
+		DFA0795C21383AF2004501A0 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +74,16 @@
 			children = (
 				DF47718521367B290018B4A1 /* AppDelegate.swift */,
 				DF47718721367B290018B4A1 /* FirstVC.swift */,
+				DFA0795C21383AF2004501A0 /* CollectionView.swift */,
+				DF4C8BA22138FA2200E0CFE9 /* OneCellCollectionViewCell.swift */,
 				DF47719F2136AB720018B4A1 /* SecondVC.swift */,
 				DF47718921367B290018B4A1 /* Main.storyboard */,
+				DF4C8BA621393D1400E0CFE9 /* ScrollImageVC.swift */,
+				DF4C8BA02138F71800E0CFE9 /* CustomCell.swift */,
 				DF47719921368F1B0018B4A1 /* TableObject.swift */,
 				DF47719721368ED00018B4A1 /* Tablecell.swift */,
 				DF4771A12136BDC70018B4A1 /* got.jpeg */,
+				DF4C8BA42139367E00E0CFE9 /* scroll.jpg */,
 				DF47718C21367B2A0018B4A1 /* Assets.xcassets */,
 				DF47718E21367B2A0018B4A1 /* LaunchScreen.storyboard */,
 				DF47719121367B2A0018B4A1 /* Info.plist */,
@@ -135,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF47719021367B2A0018B4A1 /* LaunchScreen.storyboard in Resources */,
+				DF4C8BA52139367E00E0CFE9 /* scroll.jpg in Resources */,
 				DF47718D21367B2A0018B4A1 /* Assets.xcassets in Resources */,
 				DF4771A22136BDC70018B4A1 /* got.jpeg in Resources */,
 				DF47718B21367B290018B4A1 /* Main.storyboard in Resources */,
@@ -148,7 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA0795D21383AF2004501A0 /* CollectionView.swift in Sources */,
+				DF4C8BA721393D1400E0CFE9 /* ScrollImageVC.swift in Sources */,
 				DF47719821368ED00018B4A1 /* Tablecell.swift in Sources */,
+				DF4C8BA12138F71800E0CFE9 /* CustomCell.swift in Sources */,
+				DF4C8BA32138FA2200E0CFE9 /* OneCellCollectionViewCell.swift in Sources */,
 				DF47718821367B290018B4A1 /* FirstVC.swift in Sources */,
 				DF47718621367B290018B4A1 /* AppDelegate.swift in Sources */,
 				DF4771A02136AB720018B4A1 /* SecondVC.swift in Sources */,
